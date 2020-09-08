@@ -571,3 +571,22 @@ ul.update-groupings li.grouping:hover {
 @media (min-width:641px) and (max-width:1024px){
 .api-box{ width:50%; float:left; min-height:200px!important}	
 }
+@media (max-width:768px){
+
+	.api-box a h2{
+		font-size:18px;
+	}
+	.api-box a span{
+		font-size:14px;
+	}
+	.api-box ul{
+		padding-left: 18px!important;
+	}
+	.api-box ul li{
+		margin-bottom:10px;
+	}
+	.api-box ul li a{
+		font-size:18px;
+	}
+
+}
